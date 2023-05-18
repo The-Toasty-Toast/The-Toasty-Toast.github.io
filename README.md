@@ -2,7 +2,7 @@
 <!-- ICA3  -->
 <a href="https://the-toasty-toast.github.io/ica/ICA3/index.html">ICA3</a>
 <!-- wa3  -->
-<a href="https://the-toasty-toast.github.io/wa/wa3.html#Corgi">ICA3</a>
+<a href="https://the-toasty-toast.github.io/wa/wa3.html#Corgi">WA3</a>
 <!-- ICA2  -->
 <a href="https://docs.google.com/document/d/173kHqyAozqVfn72KzIZL_440IIT_SbCJ0RRLiiVt0yw/edit?usp=sharing">ICA2</a> 
 <!-- wa2  -->
