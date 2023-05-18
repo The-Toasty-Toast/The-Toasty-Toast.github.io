@@ -12,31 +12,14 @@ body {
   
   /* Selectors to be matched up with rulesets */
   
-  .card article img{
-
-  }
-  .card footer{
-    background-color:linear-gradient(direction, red, red);
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-  }
-  .card header{
-    background-color: red;
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-  }
-  .card{
-    width: 35em;
-    height: 22em;
-    background-color: red;
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-    margin: 5em auto;
-  }
+  .card article img
+  .card footer
+  .card header
+  .card
   
   /* Rulesets to be matched up with selectors */
   
-  {
+  card{
     width: 35em;
     height: 22em;
     margin: 5em auto;
@@ -45,19 +28,34 @@ body {
     border-radius: 1.5em;
   }
   
-  {
+  card footer{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     border-radius: 1.5em 1.5em 0 0;
   }
   
-  {
+  card header{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
   }
   
-  {
+  card article img{
     max-height: 100%;
     float: right;
   }
+
+  cardheader, cardfooter{
+    height: 1.875em;
+    padding: 0.625em;
+  }
+  h,p{
+    margin: 0em;
+  }
+article{
+  height: 7.5em;
+  color:rgba(0,0,0,0.0.8)
+}
+h2{
+  font-size: 1.25em;
+}
 
   <!-- ICA3  -->
