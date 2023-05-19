@@ -43,23 +43,23 @@ body {
     float: right;
   }
 
-  <!-- writing in myown rulsets  -->
+  <!-- writing in my own rule sets  -->
   
   .cardheader, .cardfooter{
     height: 1.875em;
     padding: 0.625em;
   }
-  h, p{
+  h, p {
     margin: 0em;
   }
-article{
+article. {
   height: 7.5em;
-  color:rgba(0,0,0,0.0.8)
+  color:rgba(0,0,0,0.8)
 }
-h2{
+h2 {
   font-size: 1.25em;
+  line-height: 3.75em;
 }
 
-  <!-- Style header  -->
-  <!-- Style Footer  -->
-  <!-- Style main business card  -->
+
+  
