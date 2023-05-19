@@ -2,7 +2,9 @@
 <!-- ICA4  -->
 <a href="https://the-toasty-toast.github.io/ica/ICA4.html">ICA4</a>
 <!-- wa4  -->
-<a href="https://the-toasty-toast.github.io/wa/wa4.html">WA4</a>
+
+<a href="https://the-toasty-toast.github.io/wa/wa4.html">WA4 - card 1</a>
+<a href="https://the-toasty-toast.github.io/wa/wa4p2.html">WA4 - card 2</a>
 <!-- ICA3  -->
 <a href="https://the-toasty-toast.github.io/ica/ICA3/index.html">ICA3</a>
 <!-- wa3  -->
