@@ -5,16 +5,17 @@ body {
   }
   
   html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-family: 'Georgia', 'EB Garamond', 'Times New Roman';
     font-size: 10px;
     background-color: #ccc;
+    color: #ccc;
   }
   
   .card{
     width: 30em;
     height: 17.5em;
     margin: 5em auto;
-    background-color: red;
+    background-color: rgb(67, 67, 160);
     border: 0.2em solid black;
     border-radius: 1.5em;
   }
@@ -46,7 +47,7 @@ body {
   
 .card article {
   height: 10em;
-  background-color:rgba(0,0,0,0.3);
+  background-color:rgba(0,0,0,0.5);
 }
 h2 {
   font-size: 1.25em;
