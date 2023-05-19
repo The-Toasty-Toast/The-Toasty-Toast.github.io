@@ -53,7 +53,13 @@ h2 {
   font-size: 1.25em;
   line-height: 0.625em;
 }
-
-
+#fontsize {
+  font-size: 0.9375em;
+  line-height: 3.75em;
+}
+#padding {
+  padding-left: 0.625em;
+  color: azure;
+}
 
   
