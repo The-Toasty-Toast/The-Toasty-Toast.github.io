@@ -43,7 +43,7 @@ body {
     float: right;
   }
 
-  <!-- writing in my own rule sets  -->
+  /*<!-- writing in my own rule sets */
   
   .cardheader, .cardfooter{
     height: 1.875em;
@@ -54,7 +54,7 @@ body {
   }
 .article {
   height: 7.5em;
-  color:rgba(0,0,0,0.8)
+  color:rgba(0,0,0,0.8);
 }
 h2 {
   font-size: 1.25em;
