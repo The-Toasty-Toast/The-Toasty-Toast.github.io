@@ -10,15 +10,6 @@ body {
     background-color: #ccc;
   }
   
-  /* Selectors to be matched up with rulesets */
-  /*   
-  .card article img
-  .card footer
-  .card header
-  .card*/
-  
-  /* Rulesets to be matched up with selectors */
-  
   .card{
     width: 35em;
     height: 22em;
@@ -28,12 +19,12 @@ body {
     border-radius: 1.5em;
   }
   
-  .card footer{
+  .card header{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     border-radius: 1.5em 1.5em 0 0;
   }
   
-  .card header{
+  .card footer {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
   }
@@ -43,18 +34,19 @@ body {
     float: right;
   }
 
-  /*<!-- writing in my own rule sets */
+  /* writing in my own rule sets */
   
-  .cardheader, .cardfooter{
+  .card header, .card footer{
     height: 1.875em;
     padding: 0.625em;
   }
   h, p {
     margin: 0em;
   }
+  
 .article {
   height: 7.5em;
-  color:rgba(0,0,0,0.8);
+  background-color:rgba(0,0,0,0.8);
 }
 h2 {
   font-size: 1.25em;
