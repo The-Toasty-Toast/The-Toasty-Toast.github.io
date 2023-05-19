@@ -43,11 +43,13 @@ body {
     float: right;
   }
 
-  .cardheader, cardfooter{
+  <!-- writing in myown rulsets  -->
+  
+  .cardheader, .cardfooter{
     height: 1.875em;
     padding: 0.625em;
   }
-  h,p{
+  h, p{
     margin: 0em;
   }
 article{
