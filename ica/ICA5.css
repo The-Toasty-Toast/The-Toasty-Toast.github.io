@@ -17,10 +17,9 @@
     margin: 20px auto;
     position: relative;
     border-top: 1mm solid red;
-    background: linear-gradient(rgba(0,0,0,0.2)10%,rgba(0,0,0,0)20%,rgba(0,0,0,0)80%,rgba(0,0,0,0.2)90%, 
+    background: linear-gradient(rgba(0,0,0,0.2) 10%,rgba(0,0,0,0) 20%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.2) 90%, 
     url(top-image.png) no-repeat top, url(bottom-image.png) no-repeat bottom);
     background-color: white;
-
   }
   
   address {
