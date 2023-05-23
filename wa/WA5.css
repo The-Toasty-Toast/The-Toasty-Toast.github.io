@@ -2,9 +2,12 @@ h1 {
   text-align: center;
 }
 
- .background{
+ body{
   background-image: url("WA5-image.png");
   background-repeat: no-repeat;
+  background-size: 1000px 700px;
+  background-repeat: no-repeat;
+  
  }
  /*
 div {
@@ -13,23 +16,25 @@ div {
 }
   
 .Rough {
+position: absolute;
   top: 70px;
   left: 100px; 
 }
 
 .Unsteady {
+  position: absolute;
   top: 70px;
   right: 76px;
 }
 
 .Wet {
-  position: fixed;
+  position: absolute;
   bottom: 225px;
   right: 100px;
 
 }
 .Small {
-  position: fixed;
+  position: absolute;
   bottom: 365px;
   left: 66px;
 
