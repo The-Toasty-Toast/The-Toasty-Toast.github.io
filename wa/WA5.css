@@ -12,14 +12,18 @@ body {
 }
 
 .Perfect {
-  position: center;
-  top:17px;
-    text-align: center;
-  }
+  text-align:center;
+}
   
-  .overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
+.Rough {
+  text-align: left top;
+}
+.Unsteady {
+  text-align: right top;
+}
+.Wet {
+  text-align:right bottom;
+}
+.Small {
+  text-align:left bottom;
+}
