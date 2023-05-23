@@ -1,8 +1,18 @@
 h1 {
   text-align: center;
 }
+body {
+  background-image: url("WA5-image.png");
+ background-size: 900px;
+ background-repeat: no-repeat;
+ background-position:center;
+ 
+
+}
 
 .Perfect {
+  position: center;
+  top:17px;
     text-align: center;
   }
   
