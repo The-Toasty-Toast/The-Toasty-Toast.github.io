@@ -1,42 +1,37 @@
 h1 {
   text-align: center;
 }
-body {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  background-image: url("WA5-image.png");
- background-size: 1000px 700px;
- background-repeat: no-repeat;
- background-position: top;}
- 
 
-.Perfect {
-  text-align:center;
-  width: 100%;
+ .background{
+  background-image: url("WA5-image.png");
+  background-repeat: no-repeat;
+ }
+ /*
+div {
+  height: 1000px;
+  width: 700px;
 }
   
 .Rough {
-  width: 100%;
-
   top: 70px;
-  left: 100px;
- 
+  left: 100px; 
 }
+
 .Unsteady {
   top: 70px;
   right: 76px;
-  width: 100%;
 }
+
 .Wet {
   position: fixed;
   bottom: 225px;
   right: 100px;
-  width: 100%;
+
 }
 .Small {
   position: fixed;
   bottom: 365px;
   left: 66px;
-  width: 100%;
+
 }
+*/
