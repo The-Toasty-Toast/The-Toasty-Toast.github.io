@@ -27,29 +27,21 @@ h1 {
   left:95px;
  
   }
-
-
-
-
- /*
-
-
 .Unsteady {
-  position: absolute;
-  top: 70px;
-  right: 76px;
+  float: right;
+  position: relative;
+  top: -80px;
+  right:-200px;
 }
-
 .Wet {
-  position: absolute;
-  bottom: 225px;
-  right: 100px;
+float: right;
+  position: relative;
+  bottom: -430px;
+  right:-325px;}
 
-}
-.Small {
-  position: absolute;
-  bottom: 365px;
-  left: 66px;
-
-}
-*/
+  .Small {
+  float: left;
+  position: relative;
+  bottom: -280px;
+  left:-20px;}
+ 
