@@ -2,40 +2,41 @@ h1 {
   text-align: center;
 }
 body {
+  position: fixed;
+  height: 100%;
+  width: 100%;
   background-image: url("WA5-image.png");
- background-size: 1000px;
+ background-size: 1000px 700px;
  background-repeat: no-repeat;
  background-position: top;}
  
- 
- .container{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
 
 .Perfect {
   text-align:center;
+  width: 100%;
 }
   
 .Rough {
-  position:relative;
+  width: 100%;
+
   top: 70px;
-  left: 76px;
+  left: 100px;
+ 
 }
 .Unsteady {
-  position: absolute;
   top: 70px;
   right: 76px;
+  width: 100%;
 }
 .Wet {
-  position: absolute;
+  position: fixed;
   bottom: 225px;
   right: 100px;
+  width: 100%;
 }
 .Small {
-  position: absolute;
+  position: fixed;
   bottom: 365px;
   left: 66px;
+  width: 100%;
 }
