@@ -5,11 +5,15 @@ body {
   background-image: url("WA5-image.png");
  background-size: 1000px;
  background-repeat: no-repeat;
- background-position: top;
+ background-position: top;}
  
  
-
+ .container{
+  position: relative;
+  text-align: center;
+  color: white;
 }
+
 
 .Perfect {
   text-align:center;
