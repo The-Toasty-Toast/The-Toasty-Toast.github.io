@@ -16,14 +16,23 @@ body {
 }
   
 .Rough {
-  text-align: left top;
+  position: absolute;
+  top: 70px;
+  left: 76px;
 }
 .Unsteady {
-  text-align: right top;
+  position: absolute;
+  top: 70px;
+  right: 76px;
 }
 .Wet {
   text-align:right bottom;
+  position: absolute;
+  bottom: 225px;
+  right: 100px;
 }
 .Small {
-  text-align:left bottom;
+  position: absolute;
+  bottom: 350px;
+  left: 76px;
 }
