@@ -1,25 +1,38 @@
 h1 {
-  text-align: center;
+  position:relative;
+  left: 270px;
 }
 
  body{
   background-image: url("WA5-image.png");
   background-repeat: no-repeat;
   background-size: 1000px 700px;
-  background-repeat: no-repeat;
-  
- }
- /*
-div {
   height: 1000px;
   width: 700px;
-}
+  position:top;
+ 
   
-.Rough {
-position: absolute;
-  top: 70px;
-  left: 100px; 
-}
+ }
+ .Perfect{
+  float: top;
+  position:relative;
+  top:80px;
+  left: 300px;
+ }
+
+ .Rough {
+  float: left;
+  position:relative;
+  top:-70px;
+  left:95px;
+ 
+  }
+
+
+
+
+ /*
+
 
 .Unsteady {
   position: absolute;
