@@ -16,7 +16,7 @@ body {
 }
   
 .Rough {
-  position: absolute;
+  position:relative;
   top: 70px;
   left: 76px;
 }
@@ -32,6 +32,6 @@ body {
 }
 .Small {
   position: absolute;
-  bottom: 225px;
-  left: 76px;
+  bottom: 365px;
+  left: 66px;
 }
