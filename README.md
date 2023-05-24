@@ -1,6 +1,6 @@
 # The-Toasty-Toast.github.io
 <!-- WA5  -->
-<a href="https://the-toasty-toast.github.io/wa/WA5.html">ICA5</a>
+<a href="https://the-toasty-toast.github.io/wa/WA5.html">WA5</a>
 <!-- ICA5  -->
 <a href="https://the-toasty-toast.github.io/ica/ica5/ICA5.html">ICA5</a>
 <!-- HTML  -->
