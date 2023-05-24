@@ -8,6 +8,8 @@ body {
   img {
       max-width: 100%;
       display: block;
+      grid-column: 1;
+      grid-row: 1;
   }
   
   .logo {
@@ -19,8 +21,9 @@ body {
   
   .grid {
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 70px;
     max-width: 980px;
+    
   }
   
   nav {
@@ -52,3 +55,4 @@ body {
   .feature {
       width: 200px;
   }
+  
