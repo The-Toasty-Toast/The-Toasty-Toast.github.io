@@ -11,12 +11,13 @@ nav{
     justify-content: space-between;
     height:20px;
     background-color: blueviolet;
+    color: blueviolet ;
 }
 nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color: blueviolet ;
 }
 
 
@@ -26,11 +27,19 @@ img{
 }
 
 #red-ball{
-    background-color: crimson;
+    background-color: teal;
     width: 20px;
     height:20px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     left:5vw;
     top:0;
+    animation-name: red-ball;
+    animation-duration: 3s;
+    
+    
+}
+@keyframes red-ball{
+0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:50px; top:200px;}
 }
