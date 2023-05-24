@@ -26,3 +26,47 @@ body{
 50% {top:-200px; left:300px;}
 100% {right:300px; top:400px;}
 }
+
+
+
+
+/* Page 2*/
+
+body{
+    background-color: khaki;
+}
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+}
+
+#box1:hover {
+    background-color: purple;
+}
+
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation-name: box2move;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-direction: alternate;
+}
+
+/* @keyframes box2move{
+    0%{background-color:orangered; height: 20vh;}
+    50%{background-color:aquamarine; height: 30vh;}
+    100%{background-color: orangered; height: 500vh;}
+} */
+
+@keyframes box2move{
+    0%{left:0; top:0}
+    25%{left:75vw; top:0}
+    50%{left:75vw; top:80vh;}
+    75%{left:0vw;top:80vh;}
+    100%{left:0;top:0;}
+
+    
