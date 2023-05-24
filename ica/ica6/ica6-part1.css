@@ -31,3 +31,14 @@ height: 175vh;
 border-radius: 10px;
 background-color: orangered;
 }
+
+#text1{
+    position: relative;
+    left: 50vw;
+
+}
+
+#text2{
+    text-align:left;
+
+}
