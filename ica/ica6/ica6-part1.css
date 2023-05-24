@@ -35,10 +35,15 @@ background-color: orangered;
 #text1{
     position: relative;
     left: 50vw;
-
 }
 
 #text2{
-    text-align:left;
-
+    padding-left: 10px;
+    position: absolute;
+    bottom:0;
+}
+#text3{
+    padding-left: 10px;
+    position: absolute;
+    top:0;
 }
