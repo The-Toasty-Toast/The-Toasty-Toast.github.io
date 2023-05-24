@@ -1,8 +1,8 @@
 # The-Toasty-Toast.github.io
 <!-- ICA6 Part1 -->
-<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part1.html">ICA6-pt.1   </a>
-<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part2.html">ICA6-pt.2   </a>
-<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part3.html">ICA6-pt.3   </a>
+<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part1.html">ICA6-pt.1, </a>
+<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part2.html"> ICA6-pt.2,</a>
+<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part3.html"> ICA6-pt.3</a>
 <!-- WA5  -->
 <a href="https://the-toasty-toast.github.io/wa/WA5.html">WA5</a>
 <!-- ICA5  -->
