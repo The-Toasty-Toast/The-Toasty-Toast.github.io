@@ -5,6 +5,7 @@ body{
     width: 25vw;
     height: 20vh;
     background-color: indianred;
+    transition: 0.5s;
 }
 
 #box1:hover {
@@ -35,4 +36,4 @@ body{
     75%{left:0vw;top:80vh;}
     100%{left:0;top:0;}
 
-    
+}
