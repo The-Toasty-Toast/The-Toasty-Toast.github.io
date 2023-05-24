@@ -11,7 +11,7 @@ body {
   }
   
   .logo {
-    font-size: 200%;
+    font-size: 175%;
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
@@ -31,7 +31,7 @@ body {
   
   nav ul {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -40,7 +40,7 @@ body {
   nav a {
     color: #fff;
     text-decoration: none;
-    padding: .5em 1em;
+    padding: 3em 3em;
   }
   
   .photos {
