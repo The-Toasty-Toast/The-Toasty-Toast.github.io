@@ -2,7 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: lightslategray;
+    font-family: monospace;
 }
 nav{
     height: 50vh;
@@ -10,36 +11,38 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     height:20px;
-    background-color: blueviolet;
-    color: blueviolet ;
+    background-color: lightblue;
+    
 }
 nav a{
     width:10vw;
     text-align: center;
     text-decoration: none;
-    color: blueviolet ;
+    color:darkslategrey;
 }
 
 
 img{
-    width:30vw;
-    height: 30vh;
+    width:60vw;
+    height: 60vh;
+    border-radius: 5%;
+    filter: contrast(2);
 }
 
 #red-ball{
-    background-color: teal;
+    background-color: darkturquoise;
     width: 20px;
     height:20px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     left:5vw;
     top:0;
     animation-name: red-ball;
-    animation-duration: 3s;
-    
-    
+    animation-duration: 10s;
 }
+    /*
+
 @keyframes red-ball{
 0%   {background-color:red; left:0px; top:0px;}
 25%  {background-color:yellow; left:50px; top:500px;}
-}
+}/*
