@@ -4,7 +4,10 @@ body{
     align-items: center;
     background-color: rgb(223, 227, 231);
     font-family: monospace;
+    
 }
+
+
 nav{
     height: 50vh;
     display:flex;
@@ -19,8 +22,13 @@ nav a{
     text-align: center;
     text-decoration: none;
     color:darkslategrey;
+    font-size: 12px;
+    transition-property: font-size;
+    transition-duration: 0.5s;
 }
-
+nav a:hover{
+font-size: large;
+}
 @keyframes red-ball{
     0%   {background-color:darkturquoise; left:0px; top:0px;}
     33%  {background-color:rgb(68, 155, 255); left:50px; top:500px;}
@@ -36,12 +44,18 @@ nav a{
     position: absolute;
     left:5vw;
     top:0;
+    animation-duration: 3s;
     animation-name: red-ball;
-    animation-duration: 10s;
 }
+
 img{
     width:60vw;
     height: 60vh;
     border-radius: 5%;
     filter: contrast(2);
+    transition: width 2s height 2s;
+}
+img:hover{
+    width:50vw;
+    height:50vh;
 }
