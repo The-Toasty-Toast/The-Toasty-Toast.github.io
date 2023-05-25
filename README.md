@@ -4,7 +4,7 @@
 <!-- WA6  -->
 <a href="https://the-toasty-toast.github.io/wa/wa6/index-wa6.html">WA6</a>
 <!-- ICA6 Part1 -->
-<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part1.html">ICA6-pt.1, </a>
+<a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part1.html">ICA6-pt.1,</a>
 <a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part2.html"> ICA6-pt.2,</a>
 <a href="https://the-toasty-toast.github.io/ica/ica6/ica6-part3.html"> ICA6-pt.3</a>
 <!-- WA5  -->
