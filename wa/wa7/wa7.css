@@ -41,5 +41,5 @@ img{
 }
 @keyframes red-ball{
 0%   {background-color:red; left:0px; top:0px;}
-25%  {background-color:yellow; left:50px; top:200px;}
+25%  {background-color:yellow; left:50px; top:500px;}
 }
