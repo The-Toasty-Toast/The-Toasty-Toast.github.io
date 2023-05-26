@@ -1,4 +1,6 @@
 # The-Toasty-Toast.github.io
+<!-- ICA8 -->
+<a href="https://the-toasty-toast.github.io/ica/ica8/ICA8.html">ica8</a>
 <!-- WA7 -->
 <a href="https://the-toasty-toast.github.io/wa/wa7/wa7.html">WA7</a>
 <!-- ICA7 -->
