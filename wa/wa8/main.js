@@ -1,34 +1,42 @@
-if ('WebSocket' in window) {
-    (function () {
-        function refreshCSS() {
-            var sheets = [].slice.call(document.getElementsByTagName("link"));
-            var head = document.getElementsByTagName("head")[0];
-            for (var i = 0; i < sheets.length; ++i) {
-                var elem = sheets[i];
-                var parent = elem.parentElement || head;
-                parent.removeChild(elem);
-                var rel = elem.rel;
-                if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                    var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                    elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                }
-                parent.appendChild(elem);
-            }
-        }
-        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-        var address = protocol + window.location.host + window.location.pathname + '/ws';
-        var socket = new WebSocket(address);
-        socket.onmessage = function (msg) {
-            if (msg.data == 'reload') window.location.reload();
-            else if (msg.data == 'refreshcss') refreshCSS();
-        };
-        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-            console.log('Live reload enabled.');
-            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-        }
-    })();
+const customName = document.getElementById('customname');
+const randomize = document.querySelector('.randomize');
+const story = document.querySelector('.story');
+
+function randomValueFromArray(array){
+  const random = Math.floor(Math.random()*array.length);
+  return array[random];
 }
-else {
-    console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+
+const storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+const insertX = ['Willy the Goblin', 'Big Daddy', 'Father Christmas'];
+const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
+const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
+
+randomize.addEventListener('click', result);
+
+function result() {
+  let newStory = storyText;
+
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
+
+  newStory = newStory.replaceAll(':insertx:',xItem);
+  newStory = newStory.replaceAll(':inserty:',yItem);
+  newStory = newStory.replaceAll(':insertz:',zItem);
+
+  if (customName.value !== '') {
+    const name = customName.value;
+    newStory = newStory.replaceAll('Bob', name);
+  }
+
+  if (document.getElementById("uk").checked) {
+    const weight = `${Math.round(300*0.0714286)} stone`;
+    const temperature =  `${Math.round((94-32) * 5 / 9)} centigrade`;
+    newStory = newStory.replaceAll('94 fahrenheit', temperature);
+    newStory = newStory.replaceAll('300 pounds', weight);
+  }
+
+  story.textContent = newStory;
+  story.style.visibility = 'visible';
 }
-</script>
