@@ -33,8 +33,8 @@ function result() {
   if (document.getElementById("Meters").checked) {
     const Minutes = `30 Minutes`;
     const Meters=  `48285 Meters`;
-    newStory = newStory.replaceAll('30', Minutes);
-    newStory = newStory.replaceAll('48285', Meters);
+    newStory = newStory.replaceAll('30 minute', Minutes);
+    newStory = newStory.replaceAll('48285 meter', Meters);
   }
 
   story.textContent = newStory;
