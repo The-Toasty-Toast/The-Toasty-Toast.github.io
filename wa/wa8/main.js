@@ -1,4 +1,4 @@
-const customName = document.getElementById('customname');
+const customName = document.getElementById('chname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
