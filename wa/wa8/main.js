@@ -27,10 +27,10 @@ function result() {
 
 
   if (document.getElementById("Meters").checked) {
-    const minutes = `30 minutes`;
-    const  meters=  `48285 meters`;
-    newStory = newStory.replaceAll('30 minute', minutes);
-    newStory = newStory.replaceAll('48285', meters);
+    const Minutes = `30 Minutes`;
+    const Meters=  `48285 Meters`;
+    newStory = newStory.replaceAll('30', Minutes);
+    newStory = newStory.replaceAll('48285', Meters);
   }
 
   story.textContent = newStory;
