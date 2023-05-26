@@ -26,7 +26,7 @@ function result() {
   newStory = newStory.replaceAll(':insertz:',zItem);
 
 
-  if (document.getElementById("Minutes").checked) {
+  if (document.getElementById("Meters").checked) {
     const minutes = `30 minutes`;
     const  meters=  `48285 meters`;
     newStory = newStory.replaceAll('30 minute', minutes);
