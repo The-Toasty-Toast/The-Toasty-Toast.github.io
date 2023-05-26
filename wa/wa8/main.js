@@ -30,11 +30,11 @@ function result() {
     newStory = newStory.replaceAll('walk', name);
   }
 
-  if (document.getElementById("Meters").checked) {
-    const Minutes = `30 Minutes`;
-    const Meters=  `48285 Meters`;
-    newStory = newStory.replaceAll('30 minute', Minutes);
-    newStory = newStory.replaceAll('48285 meter', Meters);
+  if (document.getElementById("meter").checked) {
+    
+    newStory = newStory.replaceAll('48285 meter', meter);
+    newStory = newStory.replaceAll('30 minute', minute);
+  
   }
 
   story.textContent = newStory;
