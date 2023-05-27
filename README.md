@@ -1,4 +1,6 @@
 # The-Toasty-Toast.github.io
+<!-- CSS Project -->
+<a href="https://the-toasty-toast.github.io/wa/wa8/wa8.html">WA8</a>
 <!-- WA8 -->
 <a href="https://the-toasty-toast.github.io/wa/wa8/wa8.html">WA8</a>
 <!-- ICA8 -->
