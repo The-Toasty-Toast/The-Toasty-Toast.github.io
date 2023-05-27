@@ -2,16 +2,20 @@ body {
     background-color: white;
     color: #333;
     margin: 0;
-    font:Sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+
 
   nav {
     background-color: #000;
-    padding: .5em;
+    padding: 21px;
     position: sticky;
     top:0;
+    
   }
   
+
   nav ul {
     margin: 0;
     padding: 0px 30px 0px 30px;
@@ -19,15 +23,20 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    color: white;
+    
   }
   
   nav a {
-    color: black;
+    color: White;
     text-decoration: none;
+    
   }
   
-
+.logo {
+  
+  height: 90px;
+  width: auto;
+}
 
 
 /*
