@@ -3,15 +3,30 @@ body {
     color: #333;
     margin: 0;
     font:Sans-serif;
+}
 
+  nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top:0;
   }
-  .logo {
-    
-    margin: 0 auto;
-    length: 50px;
+  
+  nav ul {
+    margin: 0;
+    padding: 0px 30px 0px 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
   }
-
-
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
 
 
 
