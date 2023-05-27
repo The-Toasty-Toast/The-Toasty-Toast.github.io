@@ -2,10 +2,20 @@ body {
     background-color: white;
     color: #333;
     margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    font:Sans-serif;
+
+  }
+  img.logo {
     
+    margin: 0 auto;
+    length: 50px;
   }
 
+
+
+
+
+/*
   img {
       max-width: 100%;
       display:flex;
@@ -71,4 +81,4 @@ body {
   .feature {
       width: 200px;
   }
-
+*/
