@@ -5,7 +5,7 @@ const questionBtnClick= questionButton.addEventListener
 const answerButton= document.querySelector('#js-answer-btn');
 const answerBtnClick=answerButton.addEventListener("click",giveAnswer);
 
-const endpoint = "https://trivia.cyberwisp.com/getrandomchristmasquestion";
+const endpoint = "https://randomfox.ca/floof/?ref=apilist.fun";
 
 
 var jsonData = '';
