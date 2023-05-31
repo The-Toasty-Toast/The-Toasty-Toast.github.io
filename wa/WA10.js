@@ -37,8 +37,12 @@
     console.log("Problem 4");
      console.log(data);
 
+     for (let data[0]; data <data[3]; i++)
+      //Problem 5
 for 
      if (data ["raise eligible"] == true) 
      Raise = (salery * 0.1)+ salery; 
      set data ["raise eligible"] = False;
      
+     //Problem 6
+ if 
