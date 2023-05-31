@@ -29,20 +29,21 @@
     console.log(company);
 
  //Problem 4
- select SUM(salary) 
-     from data;
+ /*
+  SUM(salary) 
+    form data;
     for (let i = 0; i < 3; i++)
        salaryTotal = data [0] [salery]+ data [1] [salery];
      
     console.log("Problem 4");
      console.log(data);
 
-     for (let data[0]; data <data[3]; i++)
+     for (let data[0]; data <data[3]; i++)*/
       //Problem 5
 for 
      if (data ["raise eligible"] == true) 
      Raise = (salery * 0.1)+ salery; 
      set data ["raise eligible"] = False;
-     
+
      //Problem 6
  if 
