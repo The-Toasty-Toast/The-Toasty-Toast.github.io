@@ -46,4 +46,11 @@ for
      set data ["raise eligible"] = False;
 
      //Problem 6
- if 
+
+ if sam or sam == in work from home 
+
+if data == work from home =1 
+wfh 
+set true 
+
+else set work from home =false 
