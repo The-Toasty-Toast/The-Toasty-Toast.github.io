@@ -28,7 +28,6 @@ async function newTrivia(){
     catch (err){
         console.log(err)
         alert ('Failed');
-
     }
 }
 
