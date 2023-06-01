@@ -30,7 +30,7 @@ p{
 
 #ear-button {
   position: absolute;
-  transition: .8s;
+  transition: .9s;
   padding: 10px;
   background-color:aquamarine;
   left:10px;
@@ -47,7 +47,7 @@ p{
 #music-button {
   left:170px;
   position: absolute;
-  transition: .9s;
+  transition: 1s;
   padding: 10px;
   background-color:rgb(174, 110, 237);
   top:125px;
@@ -55,7 +55,7 @@ p{
 #pineapple-button {
   left:250px;
   position: absolute;
-  transition: .7s;
+  transition: .8s;
   padding: 10px;
   background-color:rgb(245, 243, 136);
   top:125px;
