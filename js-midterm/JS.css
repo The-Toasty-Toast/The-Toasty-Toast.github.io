@@ -21,15 +21,16 @@ h1{
   padding-left: 10px;
 }
 #instructions{
-  font-size: larger;
+  font-size: 20px;
   margin-bottom: x;
 }
 p{
-  font-size: smaller;
+  font-size: xx-small;
 }
+
 #ear-button {
   position: absolute;
-  transition: .8s;
+  transition: .5s;
   padding: 10px;
   background-color:aquamarine;
   left:10px;
@@ -38,7 +39,7 @@ p{
 #flamingo-button {
   left:90px;
   position: absolute;
-  transition: .8s;
+  transition: .5s;
   padding: 10px;
   background-color:pink;
   top:125px;
@@ -54,7 +55,7 @@ p{
 #pineapple-button {
   left:250px;
   position: absolute;
-  transition: .8s;
+  transition: .6s;
   padding: 10px;
   background-color:rgb(245, 243, 136);
   top:125px;
@@ -62,7 +63,7 @@ p{
 #speaker-button {
   left:330px;
   position: absolute;
-  transition: .8s;
+  transition: .4s;
   padding: 10px;
   background-color:rgb(245, 136, 136);
   top:125px;
