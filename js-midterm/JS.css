@@ -30,7 +30,7 @@ p{
 
 #ear-button {
   position: absolute;
-  transition: .5s;
+  transition: .6s;
   padding: 10px;
   background-color:aquamarine;
   left:10px;
@@ -63,7 +63,7 @@ p{
 #speaker-button {
   left:330px;
   position: absolute;
-  transition: .4s;
+  transition: .5s;
   padding: 10px;
   background-color:rgb(245, 136, 136);
   top:125px;
