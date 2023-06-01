@@ -16,8 +16,8 @@ console.log(statusImage)
     const imageArea = document.querySelector('#Fox-image');
     imageArea.imageContent= imageF;  
 
-catch (err){
+/*catch (err){
     console.log(err)
     alert ('Failed');
-}
+}*/
 }
