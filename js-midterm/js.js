@@ -35,51 +35,72 @@
   </body>
 </html>
 */
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-var imageE = "ear-button";
-var imagef = "flamingo-button";
-var imagem = "music-button";
-var imagep = "pineapple-button";
-var imagev = "volume-button";
-var x = canvas.width/2;
-var y = canvas.height-30;
-var dx = 2;
-var dy = -2;
 
-function drawBall() {
-    ctx.beginPath();
 
-    ctx.fill();
-    ctx.closePath();
-}
 
-function draw() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    drawBall();
+/*
+make_base();
+
+function make_base()
+{
+  base_image = new Image();
+  base_image.src = 'ear.png';
+  base_image.onload = function(){
+    ctx.drawImage(base_image, 0, 0, 50,50);}
+
+    base_image.addEventListener("click", function(){ alert("This is an ear not the volume!");} );
     
-    if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
-        dx = -dx;
-    }
-    if(y + dy > canvas.height-ballRadius || y + dy < ballRadius) {
-        dy = -dy;
-    }
-    
-    x += dx;
-    y += dy;
+  
+
+   // base_image.onclick = function(){
+       //alert("This is an ear not the volume!") ;}
+
 }
+ */
+ const button = document.getElementById('ear-button');
+         button.addEventListener('mouseover', function () {
+             button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+             button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+         });
+const button1 = document.getElementById('flamingo-button');
+         button1.addEventListener('mouseover', function () {
+             button1.style.left = `${Math.ceil(Math.random() * 90)}%`;
+             button1.style.top = `${Math.ceil(Math.random() * 90)}%`;
+         });
+const button2 = document.getElementById('music-button');
+         button2.addEventListener('mouseover', function () {
+             button2.style.left = `${Math.ceil(Math.random() * 90)}%`;
+             button2.style.top = `${Math.ceil(Math.random() * 90)}%`;
+         });
+const button3 = document.getElementById('pineapple-button');
+         button3.addEventListener('mouseover', function () {
+             button3.style.left = `${Math.ceil(Math.random() * 90)}%`;
+             button3.style.top = `${Math.ceil(Math.random() * 90)}%`;
+         });
+const button4 = document.getElementById('speaker-button');
+         button34.addEventListener('mouseover', function () {
+             button4.style.left = `${Math.ceil(Math.random() * 90)}%`;
+             button4.style.top = `${Math.ceil(Math.random() * 90)}%`;
+         });
 
-setInterval(draw, 10);
+function Ear(){ 
+alert("This is an ear not the volume!");
+}
+function Flamingo(){ 
+    alert("Bobby the flamingo says hello!");
+    }
+function Music(){ 
+    alert("That is a music note not the volume try again.");
+        }
+function Pineapple (){ 
+    alert("That is a tropical fruit. The pineapple, (Ananas comosus), perennial plant of the family Bromeliaceae.");
+                }
+function Speaker (){ 
+    alert("Ahh, at last now you can change the volume!");
+         }
 
-
-
-
-
-
-
-
-
-
+        
+        
 
 
 

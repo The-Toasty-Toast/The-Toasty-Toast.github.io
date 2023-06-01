@@ -1,13 +1,69 @@
-canvas {
+/*
+#myCanvas {
   background-color:rgb(232, 169, 213);
   width: 90vw;
   height: 400px;
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 10%;
+  left: 5%;
 }
-
+*/
 img{
   width: 50px;
   height:auto;
+  
+}
+h1{
+  flex-direction: row;
+  border: solid black;
+  background-color:black;
+  color: white;
+  padding-left: 10px;
+}
+#instructions{
+  font-size: larger;
+  margin-bottom: x;
+}
+p{
+  font-size: smaller;
+}
+#ear-button {
+  position: absolute;
+  transition: .8s;
+  padding: 10px;
+  background-color:aquamarine;
+  left:10px;
+  top:125px;
+}
+#flamingo-button {
+  left:90px;
+  position: absolute;
+  transition: .8s;
+  padding: 10px;
+  background-color:pink;
+  top:125px;
+}
+#music-button {
+  left:170px;
+  position: absolute;
+  transition: .8s;
+  padding: 10px;
+  background-color:rgb(174, 110, 237);
+  top:125px;
+}
+#pineapple-button {
+  left:250px;
+  position: absolute;
+  transition: .8s;
+  padding: 10px;
+  background-color:rgb(245, 243, 136);
+  top:125px;
+}
+#speaker-button {
+  left:330px;
+  position: absolute;
+  transition: .8s;
+  padding: 10px;
+  background-color:rgb(245, 136, 136);
+  top:125px;
 }

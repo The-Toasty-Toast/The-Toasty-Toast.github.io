@@ -8,14 +8,18 @@
   </head>
 
   <body>
-    <canvas id="canvas" width="600" height="400" style="border:solid 3px;"></canvas>
+   <!-- <canvas id="myCanvas" width="600" height="400" style="border:solid 3px;"></canvas>-->
 
     <h1> Image Grab</h1>
-    <button class="ear-button"><img src="ear.png" alt="ear icon"></button>
-    <button class="flamingo-button"><img src="flamingo.png" alt="flamingo icon"></button>
-    <button class="music-button"><img src="music.png" alt="music icon"></button>
-    <button class="pineapple-button"><img src="pineapple.png" alt="pineapple icon"></button>
-    <button class="volume-button"><img src="volume.png" alt="volume icon"></button>
+    
+   <p id="instructions"> Find and click on the image you think will change the volume!<span></span> <small>(if you can)</small></span>
+
+    <button onclick="Ear()" id="ear-button"><img src="ear.png" alt="ear icon"></button>
+    <button onclick="Flamingo()" id="flamingo-button"><img src="flamingo.png" alt="flamingo icon"></button>
+    <button onclick="Music()" id="music-button"><img src="music.png" alt="music icon"></button>
+    <button onclick="Pineapple()" id="pineapple-button"><img src="pineapple.png" alt="pineapple icon"></button>
+    <button onclick="Speaker()" id="speaker-button"><img src="speaker.png" alt="volume icon"></button>
+    
     <script src="js.js"></script>
   </body>
   
