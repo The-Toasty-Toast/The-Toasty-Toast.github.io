@@ -1,4 +1,6 @@
 # The-Toasty-Toast.github.io
+<!--JS -->
+<a href="https://the-toasty-toast.github.io/js-midterm/JS-Project.html">JS-Project</a>
 <!-- WA10 -->
 <a href="https://the-toasty-toast.github.io/wa/WA10/WA10.html">WA10</a>
 <!-- ICA10 -->
